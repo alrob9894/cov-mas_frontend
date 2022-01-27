@@ -5,8 +5,9 @@
 <!--      <router-link to="/about">About</router-link>-->
 <!--    </div>-->
 <!--    <router-view/>-->
-<!--    <Navbar></Navbar>-->
+    <Navbar></Navbar>
     <Panel></Panel>
+    <Plot></Plot>
   </div>
 </template>
 
@@ -35,8 +36,9 @@
 <script>
 import Panel from "@/components/Panel";
 import Navbar from "@/components/Navbar";
+import Plot from "@/components/Plot";
 export default {
   // eslint-disable-next-line vue/no-unused-components
-  components: {Navbar, Panel}
+  components: {Plot, Navbar, Panel}
 }
 </script>
